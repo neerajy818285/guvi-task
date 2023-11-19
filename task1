@@ -1,0 +1,15 @@
+                          Task-
+Question1- Write a blog on Http1.1 and Http2?
+ans- Http-Hypertext transfer protocol it is simple protocol is used to comunicated between clint and the server
+over the internet and the http is a connection based protocol and the http protocol is used to exchange the 
+information on the world wide web . There are different type of version 
+    1-HTTP1
+    2-HTTP1.1 
+    3-HTTP2.0
+    4-HTTP3.0
+ HTTP1.1-- THE HTTP1.1 is a advanced version of Http1.Http is used the simple text formatting technology 
+ and  http1.1  is fundamental protocol which is  used for communication on the world wide web  .the Http1.1 is compresses the data by itself and it allows a second request to be sent while waiting for a response from the first one and in this there are six new method is added PUT, PATCH, DELETE, CONNECT, TRACE, AND OPTIONS .
+ HTTP2.0- It is advanced version of Http1.1 and is is not use text formatting technology is used binary protocol technology for making to better paring and processing data.In this they introduced new mechanish is callled Push  is used to allow to servers initailly send the resources to clint and store them without waiting for clint to send the request.In this allow to send multiple request and response  by the clint and server   on a single TCP connection.
+
+ Question2- write a blog about object and its internal representation in javascript?
+ Ans- Object is one of the important data types in javascript but its is different form the primitative data types like string, number and etc.The object hold many values in the form of the key, as compare to the primitive data types its contain only one value and the every object had some property associted with some valus and these valus only can be accessed by using these properties associted with them and the each object has a prototype which is another object ..
