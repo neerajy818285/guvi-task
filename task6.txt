@@ -1,0 +1,42 @@
+Question1-Write a person class hold the all details.
+class Person{
+    constructor(first name,last name,age, gender,Dob,mobile number){
+    this.firstname=firstname
+    this.lastname=lastname
+    this.age=age
+    this.gender=gender
+    this.mobilenumber=mobilenumber
+    this.dob=dob}
+    const Person1=new Person('neeraj,'yadav','24','Male','08-10-1998',''7860885824')
+    console.log(Person1)
+}
+Qurstion2-Write a class to calculate uber price?
+class uberPrice{
+    Constructor(FixedRate,Distance,Petrolrate){
+        this.fixedCharge=fixedCharger
+        this.distance=distance
+        this.petrolCharge=petrolCharge
+    }
+    const price1=new price(fixedCharge+distance*petrolCharge)
+console.log(price1)
+}
+Example-Fixedcharge=50rs
+        Distance=20km
+        petrolCharge=15rs/km
+        const price1=new price(50+23*15)
+        console.log(price1)
+        output=350rs
+
+        question3-The class Movie is stated below.
+         An instance of class Movie represents a film. This class has the following
+          three properties:
+          solution-
+          class Movie{
+            constructor(Title,studio,rating)
+            this.Title=Title
+            this.studio=studio
+            this.rating=rating
+            
+            var movie1=new movie('Consion Royal','Eon Production',PG13)
+            console.log(movie1)
+          }

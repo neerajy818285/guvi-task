@@ -1,0 +1,16 @@
+Question1- Difference between document and window object?
+
+Document object-The Document object is the Html other document that will be open or loaded in the browser
+and the document object open or loaded inside the window object 
+the document object is then part of the DOM the DOM represent Document Object
+ Modelit is the interface for the window object.Its provide method and the
+  properties to interact with the content of the document such as edit, modifying
+   or accessing the element of the document.
+
+Window object- The Window object is represent in the browser tab and it is the first thing
+ that loaded or open in the browser.And the window object is the interaction between
+ the browserand the user.
+ The window object is the global object and the window object provides some 
+ features like opening new window and closing the window or tabs navigating
+ the url and more things.The window object has the properties like length,innerheight,
+open the window ,close the window or resize the window and more .

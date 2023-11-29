@@ -1,0 +1,168 @@
+
+//print odd number using anonymous and IIFE funnction
+//Anonymous function
+
+function oddnumber (array){
+    for(var i=0;i<array.length;i++){
+        if(array[i]%2!=0){
+            console.log(array[i])
+        }
+    }
+
+}
+//IIFE
+
+    (function(array){
+        for(var i=0;i<array.length;i++){
+            if(array[i]%2!=0){
+                console.log(array[i])
+            }
+        }
+    
+    })([1,2,3,4,5,6])
+    //2- Convert all the string to the caps in a string array
+    //Anonymous function
+     function stringcaps(str){
+        str=str.toLowerCase().split(' ');
+        for(var i=0;i<str.length;i++){
+            str[i]=str[i].charAt(0).to.UpperCase()+str[i].slice(1);
+                }
+return str.join(' ');
+    }
+
+    //IIFE
+
+    (function(str){
+        str=str.toLowerCase().split(' ');
+        for(var i=0;i<str.length;i++){
+            str[i]=str[i].charAt(0).to.UpperCase()+str[i].slice(1);
+                }
+return str.join(' ');
+    })("This is Guvi assignment")
+    
+    //Sum of all number in an array
+    //Anonymous Function
+    function SumofArray(array){
+       var sum=0;
+        for(var i=0;i<arr.length;i++){
+            sum=sum+arr[i];}
+            return sum;
+        }
+
+        //IIFE Function
+        (function(arr){
+          var sum=0;
+            for(var i=0;i<arr.length;i++){
+                sum=sum+arr[i];}
+                return sum;
+            })([1,2,3,4,5,6])
+
+            //Return all the prime number
+            //Anonymous Function
+            function PrimeNumber(arr){
+                arr= arr.filter((number) => {
+                  for (var i = 2; i <= Math.sqrt(number); i++) {
+                    if (number % i === 0) return false;
+                  }
+                  return true;
+                });
+                console.log(arr);
+            }
+            
+            //IIFE
+ (function(arr){
+       arr=arr.filter((number) =>{
+    for(var i=2;i<=Math.sqrt(number);i++){
+      if(number%i==0)return false;
+       }
+    return true;
+       });
+     console.log(arr);
+        }
+     )
+     //Return all the palindroms in an array
+     //anonymous
+     function Palindroms(arr,n){
+        for(let i=0;i<n;i++){
+            let ans=isPalindrome(arr[i]);
+            if(ans==false)
+            return false;
+        }return true;
+     }
+     //IIFE
+     (function (arr,n){
+        for(let i=0;i<n;i++){
+            let ans=isPalindrome(arr[i]);
+            if(ans==false)
+            return false;
+        }return true;
+     })([1,2,3,4],4)
+
+     //Remove duplicate from an array
+     function Duplicates(arr){
+        let unique=[];
+        arr.forEach(element=>{
+            if(!unique.includes(element)){
+                unique.push(element)
+            }
+        });return unique;
+
+     }console.log(arr);
+    //IIFE
+    (function(arr){
+        let unique=[];
+        arr.forEach(element=>{
+            if(!unique.includes(element)){
+                unique.push(element)
+            }
+         }); return unique;
+     console.log(arr); })([1,1,2,3,4,4,5,6])
+     //Question2- print odd number using Arrow function
+       oddNumbers = (array) => {
+       for(var i = 0 ; i< array.length ; i++){
+        if(array[i]%2!=0){
+  console.log(array[i])
+    } 
+  }
+  }
+
+2- Convert all the string to the caps in a string array
+ titleCase = (str) => {
+  str = str.toLowerCase().split(' ');
+ for (var i = 0; i < str.length; i++) {
+ str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+ } 
+ return str.join(' ');
+ }                              
+
+3-Sum of all number in an array
+ sum = (array)=>{
+     var sum = 0;
+    for(var i = 0 ; i< array.length ; i++){
+     sum = sum + array[i];
+   }
+   return sum;
+   }
+
+ 4-Return all the prime numbers in an array
+ primeNumber = (numArray) => {
+      numArray = numArray.filter((number) => {
+      for (var i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) return false;
+        }
+       return true;
+      });
+      console.log(numArray);
+  }
+
+ 5-Return all the palindromes in an array
+ Palindrome = (arr, n) =>
+    {
+   for (let i = 0; i < n; i++) 
+  {
+    let ans = isPalindrome(arr[i]);
+    if (ans == false)
+        return false;
+    }
+    return true;
+    }

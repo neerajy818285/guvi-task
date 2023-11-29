@@ -1,0 +1,40 @@
+var resume={
+    "Profile":[
+        {
+        "Name": "Neeraj yadav",
+        "Email":"neeraj818285@gmmail.com",
+        "Mobile No.": "7860885824",
+        "DOB": "08-10-1998",
+        "Address":{
+            "H.No.":"2",
+            "Area" :"Vineet khand 1 Gomti Nagar",
+            "City" :"lucknow",
+            "State":"UP",
+            "Country":"India",
+            "Pincode":"226010",
+        }}],
+        "Education":[
+            {
+                "Graduation":{
+                    "Course":"BTech",
+                    "Branch":"Computer Sccience",
+                    "Percentage":"65%",
+                    "Division" :"First Division",
+                    "University/College Name":"VBSPU jaunpur",
+
+                },
+                "Intermidate":{
+                    "Percentage":"60%",
+                    "School name":"KV gomti nagar lucknow",
+
+                },
+                "High School":{
+                    "CGPA":"6.4",
+                    "School name":"KV gomti nagar lucknow",
+                 }
+            }
+        ],
+    "Skill":"Full Stack Development",
+    "hobbies":"Playing Cricket",
+    
+    }
