@@ -1,0 +1,38 @@
+html{
+    background-color: rgb(55, 118, 134);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.parent{
+    display: grid;
+    grid-template-rows: 55% 45%;
+    
+    
+}
+
+ .col1{
+    background-color: rgb(195, 249, 225);
+    color: black;
+}
+.col2{
+    background-color: rgb(195, 253, 227);
+    color: rgb(19, 16, 18);
+}
+div{
+    
+    margin:1px;
+}
+.education{
+    display:grid;
+    grid-template-columns:40% 30% 30%;
+    background-color: rgb(202, 243, 229);
+}
+h3,h5{
+    
+    color: black;
+    font:bold;
+    font-size: large;
+}
